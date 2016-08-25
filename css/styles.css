@@ -11,7 +11,7 @@
 #user-menu li {
   display: inline-block;
   float: right;
-  padding: 0 5px;
+  padding: 5px 5px;
 }
 
 #user-menu li a {
@@ -21,4 +21,52 @@
 #user-menu li a:hover {
   color: #777;
   text-decoration: none
+}
+
+.form-control {
+  display: inline-block;
+  width: 200px;
+}
+
+.nav {
+  padding-top: 15px;
+}
+
+.nav li:nth-child(2){
+  margin-right: 32%;
+}
+
+.left {
+  background-color: #777;
+  height: 800px;
+}
+
+.right {
+  background-color: cornsilk;
+  height: 800px;
+}
+
+.sections {
+  margin: 0 10px;
+  padding-top: 15px;
+}
+
+.sections li {
+  list-style-type: none;
+}
+
+.welcome-row {
+  border: 1px solid #777;
+  margin-bottom: 10px;
+}
+
+.headline h3 {
+  display: block;
+  border: solid 2px tomato;
+  padding: 5px;
+}
+
+.headline {
+  border: 1px solid tomato;
+  margin: 10px;
 }
